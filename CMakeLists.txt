@@ -7,3 +7,8 @@ add_executable(partition
     helpers.cpp
     partition.cpp
 )
+
+add_executable(mergesort
+    helpers.cpp
+    mergesort.cpp    
+)
