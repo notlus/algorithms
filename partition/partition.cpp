@@ -72,6 +72,7 @@ int main(int, char **)
     int a[] = {4, 8, 5, 7, 3};
 
     std::cout << "Before: ";
-    PrintArray(a, 5);
+    // PrintArray(a, 5);
+    PrintContainer(a, a + 5);
     BruteForcePartition(a, 0, 4, 0);
 }

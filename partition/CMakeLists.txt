@@ -1,0 +1,7 @@
+add_executable(partition 
+    partition.cpp
+)
+
+target_link_libraries(partition
+    helpers
+)
