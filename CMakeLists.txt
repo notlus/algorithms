@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(helpers)
 add_subdirectory(partition)
+add_subdirectory(merge-arrays)
